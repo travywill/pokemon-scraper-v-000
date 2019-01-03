@@ -15,8 +15,8 @@ class Pokemon
     @@all
   end
 
-  def save
-
+  def self.save
+    @db
   end
 
   def find
