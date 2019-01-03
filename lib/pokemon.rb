@@ -32,6 +32,6 @@ class Pokemon
   end
 
   def alter_hp(id, db)
-    #
+    db.execute("INSERT INTO pokemon (name, type) VALUES (?, ?)", name, type)
   end
 end
