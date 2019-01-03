@@ -11,6 +11,10 @@ class Pokemon
     @@all << self
   end
 
+  def self.all
+    @@all
+  end
+
   def save
 
   end
