@@ -27,7 +27,7 @@ class Pokemon
     pokemon_type = pokemon_array[2]
     pokemon_db = db
     pokemon_hp = pokemon_array[3]
-    new_pokemon = Pokemon.new(id: pokemon_id, name: pokemon_name, type: pokemon_type, db: pokemon_db)
+    new_pokemon = Pokemon.new(id: pokemon_id, name: pokemon_name, type: pokemon_type, db: pokemon_db, hp: pokemon_hp)
     new_pokemon
   end
 
